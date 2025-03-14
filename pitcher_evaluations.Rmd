@@ -1,0 +1,81 @@
+---
+title: "Nebraska Movement Report 2025"
+author: "Andrew Brown"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include = FALSE, echo = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo = FALSE, include = FALSE}
+source("pitcher_evaluations.R")
+```
+
+```{r, echo = FALSE, include = FALSE, message = FALSE}
+library(readr)
+library(tidyverse)
+
+Trackman <- read_csv('~/UCLA Documents/Baseball/2024-2025/Spring/Scouting/Weekend/Nebraska/CSVs/Nebraska.csv')
+
+# Trackman <- read_csv('~/UCLA Documents/Baseball/2024-2025/Spring/Scouting/Midweek/UC Irvine/CSVs/UC Irvine.csv')
+
+# Trackman <- read_csv('~/UCLA Documents/Baseball/2024-2025/Spring/Game_CSVs/3_11_UCI.csv')
+
+# Formatting to be First Last instead of Last, First
+Trackman <- Trackman %>%
+  mutate(Pitcher = str_replace(Pitcher, "^(.*),\\s(.*)$", "\\2 \\1"))
+
+Season <- Trackman
+
+# Filter for UCLA pitchers
+Game <- Trackman %>%
+  filter(PitcherTeam == 'NEB')
+
+# Extract last name and sort by it
+Game <- Game %>%
+  mutate(LastName = word(Pitcher, -1)) %>%
+  arrange(LastName)
+
+# Get unique sorted pitcher names (old)
+
+# Season <- Trackman
+# 
+# Name_organizer <- function(Names, row) {
+#   Name.List <- str_split(Names, ", ")
+#   Name <- str_glue(Name.List[[row]][2], Name.List[[row]][1], .sep = " ")
+#   Name
+# }
+# 
+# for (i in 1:nrow(Trackman)) {
+#   Trackman$Pitcher[i] <- Name_organizer(Trackman$Pitcher, i)
+# }
+# 
+# for (i in 1:nrow(Season)) {
+#   Season$Pitcher[i] <- Name_organizer(Season$Pitcher, i)
+# }
+# 
+# Game <- Trackman
+# Game <- Trackman %>% filter(PitcherTeam == 'UCLA')
+```
+
+```{r, echo = FALSE, results = 'asis', warning = FALSE, message = FALSE, fig.height = 8, fig.width = 10}
+# for all guys
+players <- unique(Game$Pitcher)
+# edit date for plots to display
+# Total = F for just one game look
+for (i in seq_along(players)) {
+  pitcher_plots(Game, Season, players[i], "Nebraska 2025", Total = F)
+}
+```
+
+
+
+
+
+
+
+
+
+

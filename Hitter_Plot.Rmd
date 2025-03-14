@@ -1,0 +1,44 @@
+---
+title: "Hitter Plots"
+author: "Andrew Brown"
+date: "`r Sys.Date()`"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r, echo=FALSE, include=FALSE}
+source("Hitter_Plot.R")
+```
+
+```{r, echo = FALSE, include = FALSE}
+library(readr)
+library(tidyverse)
+
+# read in new csv
+Trackman <- read_csv('~/UCLA Documents/Baseball/2024-2025/Spring/Game_CSVs/3_8_Maryland.csv')
+
+Name_organizer <- function(Names, row) {
+  Name.List <- str_split(Names, ", ")
+  Name <- str_glue(Name.List[[row]][2], Name.List[[row]][1], .sep = " ")
+  Name
+}
+
+for (i in 1:nrow(Trackman)) {
+  Trackman$Batter[i] <- Name_organizer(Trackman$Batter, i)
+}
+
+Game <- Trackman %>% filter(BatterTeam == 'UCLA')
+```
+
+```{r, echo = FALSE, results = 'asis', warning = FALSE, fig.height = 8, fig.width = 10}
+players <- names(table(Game$Batter))
+# players <- 'Cody Schrier'
+
+# edit date for plots to display
+for (i in seq_along(players)) {
+  Hitter_Plot(Game, players[i], '3/8')
+}
+```
