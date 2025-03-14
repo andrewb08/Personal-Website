@@ -1,7 +1,7 @@
 ---
 title: "Andrew Brown"
 about:
-  template: broadside
+  template: jolla
   image: profile_pic.jpg
   links:
     - icon: github
@@ -14,18 +14,12 @@ about:
       url: "mailto:andrewrbrown08@gmail.com"
 ---
 
-Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.
+Andrew Brown is a Senior at UCLA who is planning to graduate in June 2025. He will be graduating with a B.S. in Statistics & Data Science along with a B.A. in Economics. When Andrew isn't studying, he is working with the UCLA Baseball team as their head manager and analyst.
 
 Download [Resume](/Andrew Brown resume.pdf)
 
 ## Education
 
-University of California, San Diego \| San Diego, CA PhD in Mathematics \| Sept 2011 - June 2015
+University of California, Los Angeles \| Los Angeles CA B.S. in Statistics & Data Science \| Sept 2021 - June 2025
 
-Macalester College \| St. Paul, MN B.A in Economics \| Sept 2007 - June 2011
-
-## Experience
-
-Wengo Analytics \| Head Data Scientist \| April 2018 - present
-
-GeoScynce \| Chief Analyst \| Spet 2012 - April 2018
+University of California, Los Angeles \| Los Angeles CA B.A. in Economics \| Sept 2021 - June 2025

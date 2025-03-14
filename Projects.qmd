@@ -1,14 +1,11 @@
 ---
 title: "Projects"
-listing:
-  type: table
-  contents:
-    - "Projects/*.qmd"
 ---
 
-### Project 1
+### Pitcher Movement Report
 
-<!-- Here is my first  -->
-<!-- [Project](/Projects/Project_1.qmd) -->
+Here is my [Pitcher Movement Report](Pitcher Movement Report.qmd)
 
-### Project 2
+### Hitter Plot Report
+
+Here is my [Hitter Plot Report](Hitter Plot Report.qmd)

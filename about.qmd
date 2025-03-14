@@ -2,8 +2,4 @@
 title: "About"
 ---
 
-About this site
-
-```{r}
-1 + 1
-```
+Hello, thank you for visiting my website. My name is Andrew Brown, I am graduating from the University of California-Los Angeles (UCLA) in June of this year!

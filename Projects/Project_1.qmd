@@ -1,9 +1,0 @@
----
-title: "Project_1"
-author: "Andrew Brown"
----
-
-```{r}
-print(1:10)
-```
-

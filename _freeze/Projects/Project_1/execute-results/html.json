@@ -1,9 +1,11 @@
 {
-  "hash": "8f10eeee1b3de562be865582cad3b36e",
+  "hash": "b4a77543e57e44f0bedf1d228fc47da2",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: \"Project_1\"\nauthor: \"Andrew Brown\"\n---\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(1:10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1]  1  2  3  4  5  6  7  8  9 10\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: \"Project_1\"\nauthor: \"Andrew Brown\"\n---\n\n::: {.cell}\n\n:::\n",
+    "supporting": [
+      "Project_1_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

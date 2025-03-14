@@ -4,21 +4,21 @@
     "href": "Projects.html",
     "title": "Projects",
     "section": "",
-    "text": "Project 1\n\n\n\n\nProject 2\n\n\n\n\n\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nAuthor\n\n\n\n\n\n\nProject_1\n\n\nAndrew Brown\n\n\n\n\n\nNo matching items"
+    "text": "Pitcher Movement Report\nHere is my Pitcher Movement Report\n\n\nHitter Plot Report\nHere is my Hitter Plot Report"
   },
   {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Andrew Brown",
     "section": "",
-    "text": "Finley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana.\nDownload Resume"
+    "text": "Andrew Brown is a Senior at UCLA who is planning to graduate in June 2025. He will be graduating with a B.S. in Statistics & Data Science along with a B.A. in Economics. When Andrew isn’t studying, he is working with the UCLA Baseball team as their head manager and analyst.\nDownload Resume"
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Andrew Brown",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles CA B.S. in Statistics & Data Science | Sept 2021 - June 2025\nUniversity of California, Los Angeles | Los Angeles CA B.A. in Economics | Sept 2021 - June 2025"
   },
   {
     "objectID": "index.html#experience",
@@ -32,7 +32,7 @@
     "href": "about.html",
     "title": "About",
     "section": "",
-    "text": "About this site\n\n1 + 1\n\n[1] 2"
+    "text": "Hello, thank you for visiting my website. My name is Andrew Brown, I am graduating from the University of California-Los Angeles (UCLA) in June of this year!"
   },
   {
     "objectID": "Projects/Project_1.html",
@@ -40,5 +40,33 @@
     "title": "Project_1",
     "section": "",
     "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
+  },
+  {
+    "objectID": "Pitcher Movement Report.html",
+    "href": "Pitcher Movement Report.html",
+    "title": "Pitcher Movement Report",
+    "section": "",
+    "text": "Caedon Kottinger Movement Report\nAbove is a sample report I’ve created from my time with UCLA Baseball.\nThis is what is known as a pitcher movement report. Each pitcher in baseball has a unique movement profile, AKA where the ball moves and how it gets there. It is important for analysts, players, and coaches to see how to develop, scout, or attack pitchers based on this report.\nPitch types are color coded for movement and location plot, you may also notice different play results are coded by shape in the location plot.\nThere is also a small digestible stat table at the top of the page, from here you can get an in-depth view of the pitcher’s arsenal."
+  },
+  {
+    "objectID": "Projects/Hitter Plot Report.html",
+    "href": "Projects/Hitter Plot Report.html",
+    "title": "Hitter Plot Report",
+    "section": "",
+    "text": "AJ Salgado Hitter Plot\nAbove is a sample report I’ve created from my time with UCLA Baseball."
+  },
+  {
+    "objectID": "Hitter Plot Report.html",
+    "href": "Hitter Plot Report.html",
+    "title": "Hitter Plot Report",
+    "section": "",
+    "text": "AJ Salgado Hitter Plot\nAbove is a sample report I’ve created from my time with UCLA Baseball."
+  },
+  {
+    "objectID": "Projects/Pitcher Movement Report.html",
+    "href": "Projects/Pitcher Movement Report.html",
+    "title": "Pitcher Movement Report",
+    "section": "",
+    "text": "!Pitcher Movement Report: Caedon Kottinger\nAbove is a sample report I’ve created from my time with UCLA Baseball.\nThis is what is known as a pitcher movement report. Each pitcher in baseball has a unique movement profile, AKA where the ball moves and how it gets there. It is important for analysts, players, and coaches to see how to develop, scout, or attack pitchers based on this report.\nPitch types are color coded for movement and location plot, you may also notice different play results are coded by shape in the location plot.\nThere is also a small digestible stat table at the top of the page, from here you can get an in-depth view of the pitcher’s arsenal."
   }
 ]
