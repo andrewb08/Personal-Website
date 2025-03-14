@@ -1,0 +1,15 @@
+{
+  "hash": "4b217a6d6542d1b77df082605301fbea",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"Personal Website\"\n---\n\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n\n```{.r .cell-code}\nrnorm(10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1] -0.7609433 -0.6199162  2.1103412  1.0087823  0.9641362  1.8879066\n [7] -2.0211951 -2.1910198 -1.1675485  1.2393402\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

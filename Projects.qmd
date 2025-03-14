@@ -1,0 +1,14 @@
+---
+title: "Projects"
+listing:
+  type: table
+  contents:
+    - "Projects/*.qmd"
+---
+
+### Project 1
+
+<!-- Here is my first  -->
+<!-- [Project](/Projects/Project_1.qmd) -->
+
+### Project 2
