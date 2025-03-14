@@ -7,6 +7,13 @@
     "text": "Pitcher Movement Report\nHere is my Pitcher Movement Report\n\n\nHitter Plot Report\nHere is my Hitter Plot Report"
   },
   {
+    "objectID": "Projects/Hitter Plot Report.html",
+    "href": "Projects/Hitter Plot Report.html",
+    "title": "Hitter Plot Report",
+    "section": "",
+    "text": "AJ Salgado Hitter Plot\nAbove is a sample report I’ve created from my time with UCLA Baseball."
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Andrew Brown",
@@ -21,13 +28,6 @@
     "text": "Education\nUniversity of California, Los Angeles | Los Angeles CA B.S. in Statistics & Data Science | Sept 2021 - June 2025\nUniversity of California, Los Angeles | Los Angeles CA B.A. in Economics | Sept 2021 - June 2025"
   },
   {
-    "objectID": "index.html#experience",
-    "href": "index.html#experience",
-    "title": "Andrew Brown",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
-  },
-  {
     "objectID": "about.html",
     "href": "about.html",
     "title": "About",
@@ -35,11 +35,11 @@
     "text": "Hello, thank you for visiting my website. My name is Andrew Brown, I am graduating from the University of California-Los Angeles (UCLA) in June of this year!"
   },
   {
-    "objectID": "Projects/Project_1.html",
-    "href": "Projects/Project_1.html",
-    "title": "Project_1",
+    "objectID": "Hitter Plot Report.html",
+    "href": "Hitter Plot Report.html",
+    "title": "Hitter Plot Report",
     "section": "",
-    "text": "print(1:10)\n\n [1]  1  2  3  4  5  6  7  8  9 10"
+    "text": "AJ Salgado Hitter Plot\nAbove is a sample report I’ve created from my time with UCLA Baseball.\nThis report is generally built for single game recaps of each hitter’s performance. The flexible nature of the code allows for the report to be used for cumulative weekends, months, or seasons as well. This is a report from the entirety of the 2024 season.\nThrough the plot being color coded, you can see where Salgado struggles with pitches or creates hard contact. This is extremely useful for instant feedback and improvement for batters, but can also be used for season-long developmental goals."
   },
   {
     "objectID": "Pitcher Movement Report.html",
@@ -47,20 +47,6 @@
     "title": "Pitcher Movement Report",
     "section": "",
     "text": "Caedon Kottinger Movement Report\nAbove is a sample report I’ve created from my time with UCLA Baseball.\nThis is what is known as a pitcher movement report. Each pitcher in baseball has a unique movement profile, AKA where the ball moves and how it gets there. It is important for analysts, players, and coaches to see how to develop, scout, or attack pitchers based on this report.\nPitch types are color coded for movement and location plot, you may also notice different play results are coded by shape in the location plot.\nThere is also a small digestible stat table at the top of the page, from here you can get an in-depth view of the pitcher’s arsenal."
-  },
-  {
-    "objectID": "Projects/Hitter Plot Report.html",
-    "href": "Projects/Hitter Plot Report.html",
-    "title": "Hitter Plot Report",
-    "section": "",
-    "text": "AJ Salgado Hitter Plot\nAbove is a sample report I’ve created from my time with UCLA Baseball."
-  },
-  {
-    "objectID": "Hitter Plot Report.html",
-    "href": "Hitter Plot Report.html",
-    "title": "Hitter Plot Report",
-    "section": "",
-    "text": "AJ Salgado Hitter Plot\nAbove is a sample report I’ve created from my time with UCLA Baseball."
   },
   {
     "objectID": "Projects/Pitcher Movement Report.html",
