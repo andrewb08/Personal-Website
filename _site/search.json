@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Personal Website",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\nrnorm(10)\n\n [1] -0.521792482  1.180880571  0.009708699  1.729934012 -0.748459105\n [6]  0.765524732 -0.696287176  0.641227076 -1.459894289  0.613999637"
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2\n\nrnorm(10)\n\n [1]  0.07455643  0.44635234  0.21849928 -0.24991150  0.31770104 -1.11397804\n [7]  0.05936816  0.47584556  0.50093939  0.56178127"
   },
   {
     "objectID": "about.html",
